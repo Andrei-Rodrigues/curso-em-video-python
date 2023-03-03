@@ -1,0 +1,22 @@
+#Faça um programa que calcule a soma entre todos os números ímpares que
+#são múltiplos de três e que se encontram no intervalo de 1 até 500.
+
+'''soma = 0
+tot = 0
+
+for i in range(1, 501, 2):
+    if i % 3 == 0:
+        tot = tot + 1
+        soma = soma + i
+print('A soma dos {} números ímpares é {}'.format(tot, soma))'''
+
+#Correção
+
+soma = 0
+cont = 0
+
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        soma = soma + c
+        cont = cont + 1
+print('A soma de todos os {} valores solicitados é {}'.format(cont, soma))
